@@ -19,7 +19,7 @@
 
         <receiver
             android:icon="@drawable/ic_launcher_background"
-            android:label="Example Widget"
+            android:label="Push Up Widget"
             android:name="MyWidgetProvider" >
             <intent-filter >
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -29,8 +29,6 @@
                 android:name="android.appwidget.provider"
                 android:resource="@xml/widget_info" />
         </receiver>
-
-        <service android:name=".UpdateWidgetService" />
 
     </application>
 
